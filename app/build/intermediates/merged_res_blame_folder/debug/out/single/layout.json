@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/fragment_houses.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/fragment_houses.xml"
+    },
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/fragment_apartments.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/fragment_apartments.xml"
+    },
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/fragment_agents.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/fragment_agents.xml"
+    },
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/fragment_home.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/nav_header_main.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/app_bar_main.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/fragment_owners.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/fragment_owners.xml"
+    },
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/content_main.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.myhomeapplication.app-mergeDebugResources-47:/layout/activity_splashscreen.xml",
+        "source": "com.example.myhomeapplication.app-main-50:/layout/activity_splashscreen.xml"
+    }
+]
