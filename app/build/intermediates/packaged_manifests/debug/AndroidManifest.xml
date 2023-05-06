@@ -27,21 +27,23 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyHomeApplication" >
         <activity
+            android:name="com.example.myhomeapplication.AgentsActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.myhomeapplication.Splashscreen"
             android:exported="true"
             android:theme="@style/Theme.Splashscreen" >
-        </activity>
-        <activity
-            android:name="com.example.myhomeapplication.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.MyHomeApplication.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.myhomeapplication.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyHomeApplication.NoActionBar" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

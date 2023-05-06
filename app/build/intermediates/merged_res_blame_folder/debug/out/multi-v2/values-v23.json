@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myhomeapplication.app-mergeDebugResources-46:/values-v23/values-v23.xml",
+            "outputFile": "com.example.myhomeapplication.app-mergeDebugResources-47:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/home/emobilis/.gradle/caches/transforms-3/4efabc3b3684471d684178c789d9ea7c/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",

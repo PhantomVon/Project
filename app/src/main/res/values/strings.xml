@@ -12,5 +12,6 @@
     <string name="menu_apartments">Apartments</string>
     <string name="menu_houses">Houses</string>
     <string name="menu_owners">Owners</string>
+    <string name="menu_notifications">Notifications</string>
     <string name="menu_exit">Exit Now</string>
 </resources>

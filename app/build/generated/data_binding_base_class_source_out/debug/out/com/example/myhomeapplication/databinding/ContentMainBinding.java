@@ -31,6 +31,9 @@ public final class ContentMainBinding implements ViewBinding {
   public final CardView btnExit;
 
   @NonNull
+  public final CardView cardAgents;
+
+  @NonNull
   public final ImageView exitIcon;
 
   @NonNull
@@ -64,15 +67,16 @@ public final class ContentMainBinding implements ViewBinding {
   public final ImageView ownersIcon;
 
   private ContentMainBinding(@NonNull RelativeLayout rootView, @NonNull ImageView agentsIcon,
-      @NonNull ImageView apartmentIcon, @NonNull CardView btnExit, @NonNull ImageView exitIcon,
-      @NonNull ImageView houseIcon, @NonNull TextView mtvAgents, @NonNull TextView mtvApartment,
-      @NonNull TextView mtvExit, @NonNull TextView mtvHouses, @NonNull TextView mtvNotifications,
-      @NonNull TextView mtvOwners, @NonNull TextView mtvTitle, @NonNull ImageView notificationIcon,
-      @NonNull ImageView ownersIcon) {
+      @NonNull ImageView apartmentIcon, @NonNull CardView btnExit, @NonNull CardView cardAgents,
+      @NonNull ImageView exitIcon, @NonNull ImageView houseIcon, @NonNull TextView mtvAgents,
+      @NonNull TextView mtvApartment, @NonNull TextView mtvExit, @NonNull TextView mtvHouses,
+      @NonNull TextView mtvNotifications, @NonNull TextView mtvOwners, @NonNull TextView mtvTitle,
+      @NonNull ImageView notificationIcon, @NonNull ImageView ownersIcon) {
     this.rootView = rootView;
     this.agentsIcon = agentsIcon;
     this.apartmentIcon = apartmentIcon;
     this.btnExit = btnExit;
+    this.cardAgents = cardAgents;
     this.exitIcon = exitIcon;
     this.houseIcon = houseIcon;
     this.mtvAgents = mtvAgents;
@@ -128,6 +132,12 @@ public final class ContentMainBinding implements ViewBinding {
       id = R.id.btnExit;
       CardView btnExit = ViewBindings.findChildViewById(rootView, id);
       if (btnExit == null) {
+        break missingId;
+      }
+
+      id = R.id.cardAgents;
+      CardView cardAgents = ViewBindings.findChildViewById(rootView, id);
+      if (cardAgents == null) {
         break missingId;
       }
 
@@ -198,8 +208,8 @@ public final class ContentMainBinding implements ViewBinding {
       }
 
       return new ContentMainBinding((RelativeLayout) rootView, agentsIcon, apartmentIcon, btnExit,
-          exitIcon, houseIcon, mtvAgents, mtvApartment, mtvExit, mtvHouses, mtvNotifications,
-          mtvOwners, mtvTitle, notificationIcon, ownersIcon);
+          cardAgents, exitIcon, houseIcon, mtvAgents, mtvApartment, mtvExit, mtvHouses,
+          mtvNotifications, mtvOwners, mtvTitle, notificationIcon, ownersIcon);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

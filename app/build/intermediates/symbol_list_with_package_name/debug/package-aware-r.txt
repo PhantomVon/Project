@@ -1934,6 +1934,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2666,6 +2667,10 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen sliding_pane_detail_pane_width
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -2926,6 +2931,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -2985,7 +2991,9 @@ id btnExit
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
+id cardAgents
 id carryVelocity
 id center
 id centerCrop
@@ -3055,11 +3063,14 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextPassword
+id editTextTextPassword2
 id edit_query
 id elastic
 id embed
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -3106,6 +3117,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
+id imageView3
 id immediateStop
 id included
 id indeterminate
@@ -3129,6 +3142,11 @@ id list_item
 id locale
 id ltr
 id m3_side_sheet
+id mBtnSave
+id mBtnView
+id mEdtEmail
+id mEdtName
+id mEdtPhone
 id marquee
 id masked
 id match_constraint
@@ -3154,6 +3172,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id media_actions
 id message
 id middle
 id mini
@@ -3204,6 +3223,7 @@ id nav_home
 id nav_host_fragment_container
 id nav_host_fragment_content_main
 id nav_houses
+id nav_notifications
 id nav_owners
 id nav_view
 id navigation_bar_item_active_indicator_view
@@ -3332,6 +3352,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
@@ -3366,6 +3387,7 @@ id text_houses
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_notifications
 id text_owners
 id textinput_counter
 id textinput_error
@@ -3520,6 +3542,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_agents
+layout activity_agentsignup
 layout activity_main
 layout activity_splashscreen
 layout app_bar_main
@@ -3544,6 +3568,7 @@ layout fragment_agents
 layout fragment_apartments
 layout fragment_home
 layout fragment_houses
+layout fragment_notifications
 layout fragment_owners
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -3599,8 +3624,17 @@ layout mtrl_search_view
 layout nav_header_main
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
@@ -3707,6 +3741,7 @@ string menu_apartments
 string menu_exit
 string menu_home
 string menu_houses
+string menu_notifications
 string menu_owners
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
@@ -4227,9 +4262,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow

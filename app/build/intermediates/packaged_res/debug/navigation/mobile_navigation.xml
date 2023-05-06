@@ -25,7 +25,8 @@
 
     <fragment
         android:id="@+id/nav_apartments"
-        android:name="com.example.myhomeapplication.ui.apartments.ApartmentsFragment"        android:label="@string/menu_apartments"
+        android:name="com.example.myhomeapplication.ui.apartments.ApartmentsFragment"
+        android:label="@string/menu_apartments"
         tools:layout="@layout/fragment_apartments" />
 
     <fragment
@@ -33,4 +34,10 @@
         android:name="com.example.myhomeapplication.ui.houses.HousesFragment"
         android:label="@string/menu_houses"
         tools:layout="@layout/fragment_houses" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.example.myhomeapplication.ui.houses.HousesFragment"
+        android:label="@string/menu_notifications"
+        tools:layout="@layout/fragment_notifications" />
 </navigation>

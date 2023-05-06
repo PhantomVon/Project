@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myhomeapplication.app-mergeDebugResources-46:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.example.myhomeapplication.app-mergeDebugResources-47:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/home/emobilis/.gradle/caches/transforms-3/3ae538e1fe403a40770f3de720fc776f/transformed/material-1.8.0/res/values-en-rGB/values-en-rGB.xml",

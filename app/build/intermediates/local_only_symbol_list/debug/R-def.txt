@@ -35,11 +35,21 @@ id agents_icon
 id apartment_icon
 id app_bar_main
 id btnExit
+id cardAgents
 id drawer_layout
+id editTextTextPassword
+id editTextTextPassword2
 id exit_icon
 id fab
 id house_icon
 id imageView
+id imageView2
+id imageView3
+id mBtnSave
+id mBtnView
+id mEdtEmail
+id mEdtName
+id mEdtPhone
 id mobile_navigation
 id mtvAgents
 id mtvApartment
@@ -54,6 +64,7 @@ id nav_exit
 id nav_home
 id nav_host_fragment_content_main
 id nav_houses
+id nav_notifications
 id nav_owners
 id nav_view
 id notification_icon
@@ -63,8 +74,11 @@ id text_agents
 id text_apartments
 id text_home
 id text_houses
+id text_notifications
 id text_owners
 id toolbar
+layout activity_agents
+layout activity_agentsignup
 layout activity_main
 layout activity_splashscreen
 layout app_bar_main
@@ -73,6 +87,7 @@ layout fragment_agents
 layout fragment_apartments
 layout fragment_home
 layout fragment_houses
+layout fragment_notifications
 layout fragment_owners
 layout nav_header_main
 menu activity_main_drawer
@@ -87,6 +102,7 @@ string menu_apartments
 string menu_exit
 string menu_home
 string menu_houses
+string menu_notifications
 string menu_owners
 string nav_header_desc
 string nav_header_subtitle

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myhomeapplication.app-mergeDebugResources-46:/values-sl/values-sl.xml",
+            "outputFile": "com.example.myhomeapplication.app-mergeDebugResources-47:/values-sl/values-sl.xml",
             "map": [
                 {
                     "source": "/home/emobilis/.gradle/caches/transforms-3/3ae538e1fe403a40770f3de720fc776f/transformed/material-1.8.0/res/values-sl/values-sl.xml",
